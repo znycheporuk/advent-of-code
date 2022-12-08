@@ -21,6 +21,6 @@ const overlaps = pairs.map(p => p.split(/[-,]+/).map(Number)).map(calculateOverl
 
 const filteredPairs = pairs.filter((item, i) => overlaps[i].length && item.includes(overlaps[i].join('-')));
 
-const result = filteredPairs.length
+const result = filteredPairs.length;
 
 console.log(result);
