@@ -1,0 +1,21 @@
+{
+  "languages": {
+    "zig": {
+      "formatter": "language_server",
+      "language_servers": ["zls"]
+    }
+  },
+  "lsp": {
+    "zig": {
+      "initialization_options": {
+        "enable_autofix": true,
+        "inlay_hints_hide_redundant_param_names": true,
+        "warn_style": true,
+        "highlight_global_var_declarations": true
+      }
+    }
+  },
+  "inline_completions": {
+    "disabled_globs": ["*.zig"]
+  }
+}
